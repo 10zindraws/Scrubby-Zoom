@@ -4,7 +4,7 @@
 
 
 A small Krita plugin that adds a new shortcut called Scrubby Zoom. It's a horizontal version of Krita's relative zoom.
-I made this plugin made because I wanted horizontal zoom in Krita 5.2. While Krita 5.3 already has it as an option, the version is slower and more unstable.
+I made this plugin made because I wanted horizontal zoom in Krita 5.2. While Krita 5.3 already has it as an option, that Krita version is too unstable for me to use as my daily painting program.
 
 
 ## Installation
