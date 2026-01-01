@@ -9,11 +9,11 @@ I made this plugin made because I wanted horizontal zoom in Krita 5.2. While Kri
 
 ## Installation
 
-> [Download](https://github.com/10zindraws/Scrubby-Zoom/releases/download/v1.0.0/scrubby_zoom.zip) now
+- [Download](https://github.com/10zindraws/Scrubby-Zoom/releases/download/v1.0.0/scrubby_zoom.zip) now
 
-> `Tools  > Scripts > Import Python Plugin From File >` select the zip file
+- `Tools  > Scripts > Import Python Plugin From File >` select the zip file
 
-> Restart Krita
+- Restart Krita
 
 ### Assign Keyboard Shortcut
 
