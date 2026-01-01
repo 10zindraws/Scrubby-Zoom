@@ -1,2 +1,22 @@
-# Scrubby-Zoom
+# Scrubby Zoom
+
+<img width="96" height="96" alt="zoomin96" src="https://github.com/user-attachments/assets/0df38ef1-efa2-4e8c-9807-970f926f2982" />
+
+
 A small Krita plugin that adds a new shortcut called Scrubby Zoom. It's a horizontal version of Krita's relative zoom.
+I made this plugin made because I wanted horizontal zoom in Krita 5.2. While Krita 5.3 already has it as an option, the version is slower and more unstable.
+
+
+## Installation
+
+> [Download](https://github.com/10zindraws/krita-work-timer/releases/download/v1.0.1/work_timer-1.0.1.zip) now or visit the plugin's [github page](https://github.com/10zindraws/krita-work-timer)
+
+> `Tools  > Scripts > Import Python Plugin From File >` select the zip file
+
+> Restart Krita
+
+### Assign Keyboard Shortcut
+
+Go to: `Settings -> Configure Krita -> Keyboard Shortcuts -> Scrubby Zoom`
+
+Default: `Ctrl+Alt+Space`
