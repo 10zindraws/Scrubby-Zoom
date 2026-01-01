@@ -9,7 +9,7 @@ I made this plugin made because I wanted horizontal zoom in Krita 5.2. While Kri
 
 ## Installation
 
-> [Download](https://github.com/10zindraws/krita-work-timer/releases/download/v1.0.1/work_timer-1.0.1.zip) now or visit the plugin's [github page](https://github.com/10zindraws/krita-work-timer)
+> [Download](https://github.com/10zindraws/Scrubby-Zoom/releases/download/v1.0.0/scrubby_zoom.zip) now
 
 > `Tools  > Scripts > Import Python Plugin From File >` select the zip file
 
