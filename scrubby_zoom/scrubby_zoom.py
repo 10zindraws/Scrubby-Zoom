@@ -39,21 +39,38 @@ class ZoomEventFilter(QObject):
 
         t = event.type()
 
-        # Start drag
+        # Start drag (mouse)
         if t == QEvent.MouseButtonPress:
             if event.button() == Qt.LeftButton:
                 self.ext.start_drag(self.ext._event_global_pos(event))
                 return True
 
-        # Update while dragging
+        # Start drag (tablet) - treat tablet press like left mouse button
+        elif t == QEvent.TabletPress:
+            self.ext.start_drag(self.ext._event_global_pos(event))
+            return True
+
+        # Update while dragging (mouse)
         elif t == QEvent.MouseMove:
             if self.ext.is_dragging:
                 self.ext.update_zoom(self.ext._event_global_pos(event))
                 return True
 
-        # End drag
+        # Update while dragging (tablet)
+        elif t == QEvent.TabletMove:
+            if self.ext.is_dragging:
+                self.ext.update_zoom(self.ext._event_global_pos(event))
+                return True
+
+        # End drag (mouse)
         elif t == QEvent.MouseButtonRelease:
             if event.button() == Qt.LeftButton and self.ext.is_dragging:
+                self.ext.end_drag()
+                return True
+
+        # End drag (tablet)
+        elif t == QEvent.TabletRelease:
+            if self.ext.is_dragging:
                 self.ext.end_drag()
                 return True
 
