@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=scrubby_zoom
+X-Python-2-Compatible=false
+X-Krita-Manual=Manual.html
+Name=Scrubby Zoom
+Comment=Hold shortcut and drag horizontally to zoom
